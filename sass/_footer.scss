@@ -1,0 +1,31 @@
+@use "./var";
+
+footer{
+    position: fixed;
+    min-width: 100vw;
+    max-height: 40vh;
+    bottom: 0;
+}
+
+.d7 {
+    font-size: var.$fs2;
+    background-color: aquamarine;
+}
+
+.d14 {
+    font-size: var.$fs2;
+    background-color: red;
+}
+
+.d21 {
+    font-size: var.$fs2;
+    background-color: yellow;
+}
+
+.d28 {
+    font-size: var.$fs2;
+    background-color: grey;
+}
+.name{
+    font-size: var.$fs1;
+}

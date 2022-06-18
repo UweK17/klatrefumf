@@ -1,7 +1,94 @@
+header {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  min-width: 100vw;
+  max-height: 15vh;
+  padding: 2vh;
+  border-bottom: 2px dotted black;
+}
+
+.headline {
+  font-size: calc(3rem + 0.5vw);
+}
+
+.subheadline {
+  font-size: calc(2rem + 0.5vw);
+}
+
+footer {
+  position: fixed;
+  min-width: 100vw;
+  max-height: 40vh;
+  bottom: 0;
+}
+
+.d7 {
+  font-size: calc(2rem + 0.5vw);
+  background-color: aquamarine;
+}
+
+.d14 {
+  font-size: calc(2rem + 0.5vw);
+  background-color: red;
+}
+
+.d21 {
+  font-size: calc(2rem + 0.5vw);
+  background-color: yellow;
+}
+
+.d28 {
+  font-size: calc(2rem + 0.5vw);
+  background-color: grey;
+}
+
+.name {
+  font-size: calc(1rem + 0.5vw);
+}
+
+main {
+  margin-top: 15vh;
+  max-height: 45vh;
+  min-width: 100vh;
+  position: relative;
+}
+
+form {
+  font-size: calc(1rem + 0.5vw);
+}
+
+button {
+  background-color: red;
+  border: none;
+  border-radius: 2vw;
+  min-width: 25vw;
+  min-height: 25px;
+  font-size: calc(2rem + 0.5vw);
+  animation: blinken 3s infinite;
+}
+
+@keyframes blinken {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: red;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
