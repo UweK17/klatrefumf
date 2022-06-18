@@ -1,6 +1,4 @@
 header {
-  position: fixed;
-  top: 0;
   text-align: center;
   min-width: 100vw;
   max-height: 15vh;
@@ -17,10 +15,8 @@ header {
 }
 
 footer {
-  position: fixed;
   min-width: 100vw;
   max-height: 40vh;
-  bottom: 0;
 }
 
 .d7 {
@@ -48,10 +44,8 @@ footer {
 }
 
 main {
-  margin-top: 15vh;
   max-height: 45vh;
   min-width: 100vh;
-  position: relative;
 }
 
 form {
@@ -88,7 +82,6 @@ button {
 body {
   min-width: 100vw;
   min-height: 100vh;
-  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
