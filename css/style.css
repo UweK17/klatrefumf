@@ -1,7 +1,5 @@
 header {
   text-align: center;
-  min-width: 100vw;
-  max-height: 15vh;
   padding: 2vh;
   border-bottom: 2px dotted black;
 }
@@ -12,11 +10,6 @@ header {
 
 .subheadline {
   font-size: calc(2rem + 0.5vw);
-}
-
-footer {
-  min-width: 100vw;
-  max-height: 40vh;
 }
 
 .d7 {
@@ -41,11 +34,6 @@ footer {
 
 .name {
   font-size: calc(1rem + 0.5vw);
-}
-
-main {
-  max-height: 45vh;
-  min-width: 100vh;
 }
 
 form {
