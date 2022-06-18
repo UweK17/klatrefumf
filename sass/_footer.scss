@@ -1,7 +1,10 @@
 @use "./var";
 
 footer{
-    
+    min-width: 100vw;
+    position: fixed;
+    bottom: 0;
+    max-height: 25%;
 }
 
 .d7 {
