@@ -20,14 +20,14 @@ footer {
   min-width: 100vw;
   position: fixed;
   bottom: 0;
-  max-height: 25%;
+  max-height: 30%;
 }
 
 .d7,
 .d14,
 .d21,
 .d28 {
-  font-size: calc(2rem + 0.5vw);
+  font-size: calc(1rem + 0.5vw);
   padding-left: 2vw;
 }
 
@@ -55,7 +55,7 @@ footer {
 main {
   position: absolute;
   top: 25%;
-  height: 50%;
+  height: 45%;
   min-width: 100vw;
 }
 
