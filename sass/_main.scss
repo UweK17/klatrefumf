@@ -14,16 +14,35 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-left: 2vw;
 }
+
+
+
 
 .eingabeName{
     font-size: var.$fs2;
+    position: relative;
+}
+
+input.nameboxSize{
+    position: absolute;
+    height: 35px;
+    width: 50vw;
+    margin-left: 2vw;
 }
 
 .terminAuswahl{
     font-size: calc(var.$fs2 * 0.75);
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
+input.cbSize{
+    width: 25px;
+    height: 25px;
+}
 
 .submitButton{
     display: flex;

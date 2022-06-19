@@ -7,25 +7,31 @@ footer{
     max-height: 25%;
 }
 
-.d7 {
+.d7,
+.d14,
+.d21,
+.d28{
     font-size: var.$fs2;
+    padding-left: 2vw;
+}
+
+.d7 {
+    
     background-color: aquamarine;
 }
 
-.d14 {
-    font-size: var.$fs2;
+.d14 {;
     background-color: red;
 }
 
-.d21 {
-    font-size: var.$fs2;
+.d21 {;
     background-color: yellow;
 }
 
-.d28 {
-    font-size: var.$fs2;
+.d28 {;
     background-color: grey;
 }
 .name{
     font-size: var.$fs1;
+    padding-left: 2vw;
 }

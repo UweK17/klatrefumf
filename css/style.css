@@ -5,6 +5,7 @@ header {
   position: fixed;
   top: 0;
   max-height: 25%;
+  min-width: 100vw;
 }
 
 .headline {
@@ -22,28 +23,33 @@ footer {
   max-height: 25%;
 }
 
-.d7 {
+.d7,
+.d14,
+.d21,
+.d28 {
   font-size: calc(2rem + 0.5vw);
+  padding-left: 2vw;
+}
+
+.d7 {
   background-color: aquamarine;
 }
 
 .d14 {
-  font-size: calc(2rem + 0.5vw);
   background-color: red;
 }
 
 .d21 {
-  font-size: calc(2rem + 0.5vw);
   background-color: yellow;
 }
 
 .d28 {
-  font-size: calc(2rem + 0.5vw);
   background-color: grey;
 }
 
 .name {
   font-size: calc(1rem + 0.5vw);
+  padding-left: 2vw;
 }
 
 main {
@@ -59,14 +65,31 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-left: 2vw;
 }
 
 .eingabeName {
   font-size: calc(2rem + 0.5vw);
+  position: relative;
+}
+
+input.nameboxSize {
+  position: absolute;
+  height: 35px;
+  width: 50vw;
+  margin-left: 2vw;
 }
 
 .terminAuswahl {
   font-size: calc((2rem + 0.5vw) * 0.75);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+input.cbSize {
+  width: 25px;
+  height: 25px;
 }
 
 .submitButton {
