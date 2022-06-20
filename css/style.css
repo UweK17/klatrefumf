@@ -9,11 +9,11 @@ header {
 }
 
 .headline {
-  font-size: calc(3rem + 0.5vw);
+  font-size: calc(2rem + 0.5vw);
 }
 
 .subheadline {
-  font-size: calc(2rem + 0.5vw);
+  font-size: calc(1rem + 0.5vw);
 }
 
 footer {
