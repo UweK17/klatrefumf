@@ -4,28 +4,34 @@ footer{
     min-width: 100vw;
     position: fixed;
     bottom: 0;
-    max-height: 25%;
+    max-height: 30%;
+}
+
+.d7,
+.d14,
+.d21,
+.d28{
+    font-size: var.$fs1;
+    padding-left: 2vw;
 }
 
 .d7 {
-    font-size: var.$fs2;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.5);
 }
 
 .d14 {
-    font-size: var.$fs2;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 .d21 {
-    font-size: var.$fs2;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.5);
 }
 
 .d28 {
-    font-size: var.$fs2;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.5);
 }
+
 .name{
     font-size: var.$fs1;
+    padding-left: 2vw;
 }

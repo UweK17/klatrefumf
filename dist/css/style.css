@@ -5,6 +5,10 @@ header {
   position: fixed;
   top: 0;
   max-height: 25%;
+<<<<<<< HEAD
+=======
+  min-width: 100vw;
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
 }
 
 .headline {
@@ -22,28 +26,53 @@ footer {
   max-height: 25%;
 }
 
+<<<<<<< HEAD
 .d7 {
   font-size: calc(2rem + 0.5vw);
+=======
+.d7,
+.d14,
+.d21,
+.d28 {
+  font-size: calc(2rem + 0.5vw);
+  padding-left: 2vw;
+}
+
+.d7 {
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
   background-color: aquamarine;
 }
 
 .d14 {
+<<<<<<< HEAD
   font-size: calc(2rem + 0.5vw);
+=======
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
   background-color: red;
 }
 
 .d21 {
+<<<<<<< HEAD
   font-size: calc(2rem + 0.5vw);
+=======
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
   background-color: yellow;
 }
 
 .d28 {
+<<<<<<< HEAD
   font-size: calc(2rem + 0.5vw);
+=======
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
   background-color: grey;
 }
 
 .name {
   font-size: calc(1rem + 0.5vw);
+<<<<<<< HEAD
+=======
+  padding-left: 2vw;
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
 }
 
 main {
@@ -59,14 +88,40 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+<<<<<<< HEAD
+=======
+  padding-left: 2vw;
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
 }
 
 .eingabeName {
   font-size: calc(2rem + 0.5vw);
+<<<<<<< HEAD
+=======
+  position: relative;
+}
+
+input.nameboxSize {
+  position: absolute;
+  height: 35px;
+  width: 50vw;
+  margin-left: 2vw;
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
 }
 
 .terminAuswahl {
   font-size: calc((2rem + 0.5vw) * 0.75);
+<<<<<<< HEAD
+=======
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+input.cbSize {
+  width: 25px;
+  height: 25px;
+>>>>>>> 7cbc94ac7c3b72ce040b923a16cb60a3e5aa4803
 }
 
 .submitButton {
